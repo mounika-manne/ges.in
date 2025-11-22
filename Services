@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Services – GES</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>GES</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Business Consulting</li>
+      <li>Technical Solutions</li>
+      <li>Project Management</li>
+      <li>Custom Support Services</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 GES</p>
+  </footer>
+</body>
+</html>
