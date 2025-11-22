@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us – GES</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>GES</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>GES is committed to delivering quality business solutions to help companies achieve growth, efficiency, and success.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 GES</p>
+  </footer>
+</body>
+</html>
