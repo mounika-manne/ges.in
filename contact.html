@@ -1,28 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Contact – GES</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | GESCS</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header>
-    <h1>GES</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <section>
-    <h2>Contact Us</h2>
-    <p>Email: info@ges.in</p>
-    <p>Phone: +91-XXXXXXXXXX</p>
-  </section>
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="container">
+        <div class="logo">GESCS</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-  <footer>
-    <p>© 2025 GES</p>
-  </footer>
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+            We are here to support your Geospatial, Environmental, and Structural consulting needs.  
+            Please reach out to us for inquiries, collaborations, or professional assistance.
+        </p>
+
+        <div class="contact-details">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Email:</strong> info@gescs.in</li>
+                <li><strong>Phone:</strong> +91-XXXXXXXXXX</li>
+                <li><strong>Location:</strong> India</li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message" rows="6" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container">
+        <p>© 2025 GESCS — Geospatial, Environmental & Structural Consulting Services</p>
+    </div>
+</footer>
+
 </body>
 </html>
